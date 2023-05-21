@@ -1,5 +1,4 @@
 package com.aninfo.model;
-
 import javax.persistence.*;
 
 @Entity
@@ -8,7 +7,6 @@ public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long cbu;
-
     private Double balance;
 
     public Account(){
